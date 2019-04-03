@@ -1,11 +1,13 @@
 <resources>
     <string name="app_name">BuyNow</string>
     <string name="textViewDangSanPham">Đăng sản phẩm</string>
+    <string name="textViewSuaSanPham">Sửa sản phẩm</string>
     <string name="btnBoLoc">Bỏ lọc</string>
     <string name="TextViewTenSanPham">Tên sản phẩm:</string>
     <string name="TextViewGia">Giá:</string>
     <string name="TextViewTinhTrang">Tình trạng:</string>
     <string name="ButtonDang">Đăng</string>
+    <string name="ButtonSua">Sửa</string>
     <string name="ButtonXemLai">Xem lại</string>
     <string name="TextViewMoTaSanPham">Mô tả sản phẩm</string>
     <string name="SwitchCon">Còn</string>

@@ -9,8 +9,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Dang_san_pham"
+        <activity android:name=".Sua_san_pham"
             android:label="@string/textViewDangSanPham">
+
+        </activity>
+        <activity
+            android:name=".Dang_san_pham"
+            android:label="@string/textViewSuaSanPham">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

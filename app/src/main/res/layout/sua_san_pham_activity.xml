@@ -140,7 +140,7 @@
             android:layout_width="100dp"
             android:layout_height="50dp"
             android:background="@drawable/border"
-            android:text="@string/ButtonDang"
+            android:text="@string/ButtonSua"
             android:clickable="true" />
         <Button
             android:layout_marginLeft="20dp"
