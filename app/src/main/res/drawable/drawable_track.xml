@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_checked="true" android:drawable="@drawable/icon1">
+        <!--<shape android:dither="true"-->
+            <!--android:shape="rectangle"-->
+            <!--android:useLevel="false"-->
+            <!--android:visible="true">-->
+            <!--<gradient-->
+
+                <!--android:angle="270"-->
+                <!--android:endColor="@android:color/white"-->
+                <!--android:startColor="@android:color/white"/>-->
+            <!--<corners-->
+                <!--android:radius="20dp"/>-->
+            <!--<size-->
+
+                <!--android:width="50dp"-->
+                <!--android:height="30dp"/>-->
+
+        <!--</shape>-->
+
+    </item>
+
+    <item android:state_checked="false" android:drawable="@drawable/icon2">
+        <!--<shape android:dither="true"-->
+            <!--android:shape="rectangle"-->
+            <!--android:useLevel="false"-->
+            <!--android:visible="true">-->
+            <!--<gradient-->
+                <!--android:angle="270"-->
+                <!--android:endColor="@android:color/white"-->
+                <!--android:startColor="@android:color/white"/>-->
+            <!--<corners-->
+                <!--android:radius="50dp"/>-->
+            <!--<size-->
+                <!--android:width="50dp"-->
+                <!--android:height="30dp"/>-->
+        <!--</shape>-->
+
+    </item>
+</selector>
