@@ -9,18 +9,33 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Sua_san_pham"
-            android:label="@string/textViewDangSanPham">
-
-        </activity>
         <activity
-            android:name=".Dang_san_pham"
-            android:label="@string/textViewSuaSanPham">
+            android:name=".store_infor"
+            android:label="@string/title_activity_store_infor"
+            android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity android:name=".sign_in">
+
+        </activity>
+        <activity android:name=".new_password"></activity>
+        <activity android:name=".forget_password" />
+        <activity android:name=".confirm_numberphone" />
+        <activity
+            android:name=".Sua_san_pham"
+            android:label="@string/textViewDangSanPham" />
+        <activity
+            android:name=".Dang_san_pham"
+            android:label="@string/textViewSuaSanPham">
+            <!--<intent-filter>-->
+                <!--<action android:name="android.intent.action.MAIN" />-->
+
+                <!--<category android:name="android.intent.category.LAUNCHER" />-->
+            <!--</intent-filter>-->
         </activity>
     </application>
 
