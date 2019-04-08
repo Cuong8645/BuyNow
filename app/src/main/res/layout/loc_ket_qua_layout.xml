@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    android:orientation="vertical"
+    tools:context=".LocKetQuaActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="5">
+
+        <TextView
+            android:id="@+id/txtDanhMuc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:text="Danh mục" />
+
+        <EditText
+            android:id="@+id/edtDanhMuc"
+            android:layout_width="386dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtDanhMuc"
+            android:layout_alignLeft="@id/txtDanhMuc"
+            android:background="@drawable/edittext_noborder"
+            android:hint="Laptop"
+            android:enabled="false"/>
+
+        <View
+            android:id="@+id/line1"
+            android:layout_width="wrap_content"
+            android:layout_below="@+id/edtDanhMuc"
+            android:layout_height="1dp"
+            android:background="@color/colorAccent"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:id="@+id/txtGia"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/edtDanhMuc"
+            android:layout_marginTop="10dp"
+            android:text="Giá từ" />
+
+        <SeekBar
+            android:id="@+id/seekBar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txtGia"
+            android:layout_marginTop="10dp" />
+
+        <View
+            android:id="@+id/line2"
+            android:layout_width="wrap_content"
+            android:layout_below="@+id/seekBar"
+            android:layout_height="1dp"
+            android:background="@color/colorAccent"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:id="@+id/txtSapXep"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/line2"
+            android:layout_marginTop="10dp"
+            android:text="SẮP XẾP THEO" />
+
+        <TextView
+            android:id="@+id/txtTinMoi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txtSapXep"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:text="Tin mới nhất"/>
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignRight="@id/edtDanhMuc"
+            android:layout_alignBaseline="@id/txtTinMoi"
+            android:checked="true"/>
+
+        <TextView
+            android:id="@+id/txtGiaThap"
+            android:layout_width="wrap_content"
+            android:layout_below="@id/txtTinMoi"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:text="Giá thấp trước"/>
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignRight="@id/edtDanhMuc"
+            android:layout_alignBaseline="@id/txtGiaThap"/>
+
+        <View
+            android:id="@+id/line3"
+            android:layout_width="wrap_content"
+            android:layout_below="@+id/txtGiaThap"
+            android:layout_height="1dp"
+            android:background="@color/colorAccent"
+            android:layout_marginTop="10dp"/>
+        <TextView
+            android:id="@+id/txtDangBoi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/line3"
+            android:layout_marginTop="10dp"
+            android:text="ĐĂNG BỞI" />
+
+        <TextView
+            android:id="@+id/txtCaNhan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txtDangBoi"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:text="Cá nhân"/>
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignRight="@id/edtDanhMuc"
+            android:layout_alignBaseline="@id/txtCaNhan" />
+
+        <TextView
+            android:id="@+id/txtCuaHang"
+            android:layout_width="wrap_content"
+            android:layout_below="@id/txtCaNhan"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:text="Cửa hàng"/>
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignRight="@id/edtDanhMuc"
+            android:layout_alignBaseline="@id/txtCuaHang"
+            android:checked="true"/>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Áp Dụng"
+            android:background="@color/colorAccent"
+            android:textColor="@color/bgbuttonnumber"/>
+
+    </LinearLayout>
+</LinearLayout>

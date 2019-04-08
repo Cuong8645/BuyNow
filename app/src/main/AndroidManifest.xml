@@ -9,6 +9,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+
+        <!--By nguyen van hai -->
+        <activity android:name=".LocKetQuaActivity"></activity>
+        <activity android:name=".CaiDatThongTinActivity" />
+        <activity android:name=".TaoCuaHangActivity" />
+
+        <!--By ngo quoc cuong -->
         <activity
             android:name=".store_infor"
             android:label="@string/title_activity_store_infor"
@@ -19,10 +26,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".sign_in">
-
-        </activity>
-        <activity android:name=".new_password"></activity>
+        <activity android:name=".sign_in" />
+        <activity android:name=".new_password" />
         <activity android:name=".forget_password" />
         <activity android:name=".confirm_numberphone" />
         <activity
@@ -31,11 +36,6 @@
         <activity
             android:name=".Dang_san_pham"
             android:label="@string/textViewSuaSanPham">
-            <!--<intent-filter>-->
-                <!--<action android:name="android.intent.action.MAIN" />-->
-
-                <!--<category android:name="android.intent.category.LAUNCHER" />-->
-            <!--</intent-filter>-->
         </activity>
     </application>
 

@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="10dp"
+    tools:context=".TaoCuaHangActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="8">
+
+        <TextView
+            android:id="@+id/txtTenCH"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:text="Tên cửa hàng: "
+            android:textSize="15dp"
+            android:layout_marginTop="10dp"/>
+
+        <EditText
+            android:id="@+id/edtTenCH"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/txtTenCH"
+            android:layout_alignBaseline="@id/txtTenCH"
+            android:background="@drawable/edittext_background" />
+
+        <TextView
+            android:id="@+id/txtDiaChi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:layout_below="@id/txtTenCH"
+            android:layout_marginTop="30dp"
+            android:text="Địa chỉ: "/>
+
+
+        <EditText
+            android:id="@+id/edtDiaChi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@id/edtTenCH"
+            android:layout_alignBaseline="@id/txtDiaChi"
+            android:background="@drawable/edittext_background"/>
+
+        <TextView
+            android:id="@+id/txtChiNhanh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txtDiaChi"
+            android:textSize="15dp"
+            android:layout_marginTop="30dp"
+            android:text="Chi nhánh:"/>
+
+        <EditText
+            android:id="@+id/edtChiNhanh"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/txtChiNhanh"
+            android:layout_alignLeft="@id/edtTenCH"
+            android:background="@drawable/edittext_background"/>
+
+        <TextView
+            android:id="@+id/txtSDT"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txtChiNhanh"
+            android:layout_marginTop="30dp"
+            android:textSize="15dp"
+            android:text="Điện thoại:"/>
+
+        <EditText
+            android:id="@+id/edtSDT"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@id/txtSDT"
+            android:layout_alignLeft="@id/edtTenCH"
+            android:background="@drawable/edittext_background"/>
+
+
+        <TextView
+            android:id="@+id/txtWebsite"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtSDT"
+            android:layout_marginTop="30dp"
+            android:textSize="15dp"
+            android:text="Website:"/>
+
+        <EditText
+            android:id="@+id/edtWebsite"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/txtWebsite"
+            android:layout_alignLeft="@id/edtTenCH"
+            android:background="@drawable/edittext_background"/>
+
+
+        <TextView
+            android:id="@+id/txtEmail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtWebsite"
+            android:layout_marginTop="30dp"
+            android:textSize="15dp"
+            android:text="Email:"/>
+
+        <EditText
+            android:id="@+id/edtEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/txtEmail"
+            android:layout_alignLeft="@+id/edtTenCH"
+            android:background="@drawable/edittext_background"/>
+
+        <TextView
+            android:id="@+id/txtMoTa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtEmail"
+            android:layout_marginTop="30dp"
+            android:textSize="15dp"
+            android:text="Mô tả:"/>
+
+        <EditText
+            android:id="@+id/edtMoTa"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_alignBaseline="@id/txtMoTa"
+            android:layout_alignLeft="@+id/edtTenCH"
+            android:background="@drawable/edittext_background"/>
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:gravity="center"
+        android:layout_weight="1">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Đăng Ký"
+            android:background="@color/colorAccent"
+            android:textColor="@color/bgbuttonnumber"/>
+    </LinearLayout>
+
+</LinearLayout>

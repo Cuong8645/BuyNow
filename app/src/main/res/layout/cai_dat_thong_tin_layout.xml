@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="10dp"
+    tools:context=".CaiDatThongTinActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/ic_launcher"/>
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="4"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/txtHoten"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:text="Họ và tên"/>
+
+            <EditText
+                android:id="@+id/edtHoten"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtHoten"
+                android:layout_alignLeft="@id/txtHoten"
+                android:layout_marginTop="5dp"
+                android:hint="Nguyễn Văn Hải"
+                android:enabled="false"
+                android:background="@drawable/edittext_noborder"/>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="4">
+
+        <View
+            android:id="@+id/line1"
+            android:layout_width="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_height="1dp"
+            android:background="@color/colorAccent"/>
+
+        <TextView
+            android:id="@+id/txtSDT"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/line1"
+            android:text="Số điện thoại"/>
+
+        <EditText
+            android:id="@+id/edtSDT"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txtSDT"
+            android:enabled="false"
+            android:paddingTop="5dp"
+            android:hint="0967678646"
+            android:background="@drawable/edittext_noborder"/>
+        <Button
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:paddingRight="10dp"
+            android:textSize="16dp"
+            android:text=">"
+            android:layout_alignBaseline="@+id/edtSDT"
+            android:layout_alignParentEnd="true" />
+
+        <View
+            android:id="@+id/line2"
+            android:layout_width="wrap_content"
+            android:layout_below="@+id/edtSDT"
+            android:layout_height="1dp"
+            android:background="@color/colorAccent"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:id="@+id/txtGioiTinh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/line2"
+            android:text="Giới tính"/>
+
+        <EditText
+            android:id="@+id/edtGioiTinh"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txtGioiTinh"
+            android:paddingTop="10dp"
+            android:hint="Nam"
+            android:enabled="false"
+            android:background="@drawable/edittext_noborder"/>
+
+        <Button
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:paddingRight="10dp"
+            android:textSize="16dp"
+            android:text=">"
+            android:layout_alignBaseline="@+id/edtGioiTinh"
+            android:layout_alignParentEnd="true" />
+
+
+        <View
+            android:id="@+id/line3"
+            android:layout_width="wrap_content"
+            android:layout_height="1dp"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/edtGioiTinh"
+            android:background="@color/colorAccent"/>
+
+        <TextView
+            android:id="@+id/txtNgaySinh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/line3"
+            android:text="Ngày sinh"/>
+
+        <EditText
+            android:id="@+id/edtNgaySinh"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txtNgaySinh"
+            android:paddingTop="10dp"
+            android:hint="14/07/1999"
+            android:enabled="false"
+            android:background="@drawable/edittext_noborder"/>
+
+        <Button
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:paddingRight="10dp"
+            android:textSize="16dp"
+            android:text=">"
+            android:layout_alignBaseline="@+id/edtNgaySinh"
+            android:layout_alignParentEnd="true" />
+
+        <View
+            android:id="@+id/line4"
+            android:layout_width="wrap_content"
+            android:layout_height="1dp"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/edtNgaySinh"
+            android:background="@color/colorAccent"/>
+
+        <TextView
+            android:id="@+id/txtDiaChi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/line4"
+            android:text="Địa chỉ"/>
+
+        <EditText
+            android:id="@+id/edtDiaChi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txtDiaChi"
+            android:paddingTop="10dp"
+            android:hint="53 Võ Văn Ngân, Linh Chiểu, Thủ Đức"
+            android:enabled="false"
+            android:background="@drawable/edittext_noborder"/>
+
+        <Button
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:paddingRight="10dp"
+            android:textSize="16dp"
+            android:text=">"
+            android:layout_alignBaseline="@+id/edtDiaChi"
+            android:layout_alignParentEnd="true" />
+
+        <View
+            android:id="@+id/line5"
+            android:layout_width="wrap_content"
+            android:layout_height="1dp"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/edtDiaChi"
+            android:background="@color/colorAccent"/>
+
+        <TextView
+            android:id="@+id/txtMatKhau"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/line5"
+            android:text="Mật khẩu"/>
+
+        <EditText
+            android:id="@+id/edtMatKhau"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txtMatKhau"
+            android:paddingTop="10dp"
+            android:hint="***********************"
+            android:enabled="false"
+            android:background="@drawable/edittext_noborder"/>
+
+        <Button
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:paddingRight="10dp"
+            android:textSize="16dp"
+            android:text=">"
+            android:layout_alignBaseline="@+id/edtMatKhau"
+            android:layout_alignParentEnd="true" />
+
+        <View
+            android:id="@+id/line6"
+            android:layout_width="wrap_content"
+            android:layout_height="1dp"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/edtMatKhau"
+            android:background="@color/colorAccent"/>
+
+        <TextView
+            android:id="@+id/txtLienKet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/line6"
+            android:text="Liên kết Facebook"/>
+
+        <EditText
+            android:id="@+id/edtLienKet"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txtLienKet"
+            android:paddingTop="10dp"
+            android:hint="Nguyen Van Hai"
+            android:enabled="false"
+            android:background="@drawable/edittext_noborder"/>
+
+        <Button
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:paddingRight="10dp"
+            android:textSize="16dp"
+            android:text=">"
+            android:layout_alignBaseline="@+id/edtLienKet"
+            android:layout_alignParentEnd="true" />
+
+        <View
+            android:id="@+id/line7"
+            android:layout_width="wrap_content"
+            android:layout_height="1dp"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/edtLienKet"
+            android:background="@color/colorAccent"/>
+
+    </RelativeLayout>
+
+
+
+
+</LinearLayout>
