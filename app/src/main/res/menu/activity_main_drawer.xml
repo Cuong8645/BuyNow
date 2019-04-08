@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_login_signup"
+            android:icon="@drawable/ic_login_signup"
+            android:title="@string/btnLoginSignUp" />
+        <item
+            android:id="@+id/nav_post_news"
+            android:icon="@drawable/ic_post_news"
+            android:title="@string/btnPostNews" />
+        <item
+            android:id="@+id/nav_messager"
+            android:icon="@drawable/ic_messenger"
+            android:title="@string/btnMessenger" />
+        <item
+            android:id="@+id/nav_save_news"
+            android:icon="@drawable/ic_save_news"
+            android:title="@string/btnSaveNews" />
+        <item
+            android:id="@+id/nav_account_settings"
+            android:icon="@drawable/ic_account_settings"
+            android:title="@string/btnAccountSettings" />
+        <item
+            android:id="@+id/nav_create_shop"
+            android:icon="@drawable/ic_create_shop"
+            android:title="@string/btnCreateShop" />
+    </group>
+
+</menu>

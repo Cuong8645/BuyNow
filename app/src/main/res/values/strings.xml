@@ -1,89 +1,22 @@
 <resources>
-    <string name="app_name">BuyNow</string>
-    <string name="textViewDangSanPham">Đăng sản phẩm</string>
-    <string name="textViewSuaSanPham">Sửa sản phẩm</string>
-    <string name="btnBoLoc">Bỏ lọc</string>
-    <string name="TextViewTenSanPham">Tên sản phẩm:</string>
-    <string name="TextViewGia">Giá:</string>
-    <string name="TextViewTinhTrang">Tình trạng:</string>
-    <string name="ButtonDang">Đăng</string>
-    <string name="ButtonSua">Sửa</string>
-    <string name="ButtonXemLai">Xem lại</string>
-    <string name="TextViewMoTaSanPham">Mô tả sản phẩm</string>
-    <string name="SwitchCon">Còn</string>
-    <string name="SwitchHet">Hết</string>
-    <string-array name="SpinnerLoai">
-        <item>Máy tính</item>
-        <item>Điện thoại</item>
-        <item>Tablet</item>
-        <item>Tivi</item>
-    </string-array>
-    <string-array name="SpinnerKhuVuc">
-        <item>Toàn quốc</item>
-        <item>Tp Hồ Chí Minh</item>
-        <item>Hà Nội</item>
-        <item>Đà Nẵng</item>
-        <item>Cần Thơ</item>
-        <item>Bình Dương</item>
-        <item>An Giang</item>
-        <item>Bà Rịa- Vũng Tàu</item>
-        <item>Bắc Giang</item>
-        <item>Bắc Cạn</item>
-        <item>Bạc Liêu</item>
-        <item>Bắc Ninh</item>
-        <item>Bến Tre</item>
-        <item>Bình Định</item>
-        <item>Bình Phước</item>
-        <item>Bình Thuận</item>
-        <item>Cà Mau</item>
-        <item>Cao Bằng</item>
-        <item>Đắk Lắk</item>
-        <item>Đắk Nông</item>
-        <item>Điện Biên</item>
-        <item>Đồng Nai</item>
-        <item>Đồng Tháp</item>
-        <item>Gia Lai</item>
-        <item>Hà Giang</item>
-        <item>Hà Nam</item>
-        <item>Hà Tĩnh</item>
-        <item>Hải Dương</item>
-        <item>Hải Phòng</item>
-        <item>Hậu Giang</item>
-        <item>Hòa Bình</item>
-        <item>Hưng Yên</item>
-        <item>Khánh Hòa</item>
-        <item>Kiên Giang</item>
-        <item>Kon Tum</item>
-        <item>Lai Châu</item>
-        <item>Lâm Đồng</item>
-        <item>Lạng Sơn</item>
-        <item>Lào Cai</item>
-        <item>Long An</item>
-        <item>Nam Định</item>
-        <item>Nghệ An</item>
-        <item>Ninh Bình</item>
-        <item>Ninh Thuận</item>
-        <item>Phú Thọ</item>
-        <item>Phú Yên</item>
-        <item>Quảng Bình</item>
-        <item>Quảng Nam</item>
-        <item>Quảng Ngãi</item>
-        <item>Quảng Ninh</item>
-        <item>Quảng Trị</item>
-        <item>Sóc Trăng</item>
-        <item>Sơn La</item>
-        <item>Tây Ninh</item>
-        <item>Thái Bình</item>
-        <item>Thái Nguyên</item>
-        <item>Thanh Hóa</item>
-        <item>Thừa Thiên – Huế</item>
-        <item>Tiền Giang</item>
-        <item>Trà Vinh</item>
-        <item>Tuyên Quang</item>
-        <item>Vĩnh Long</item>
-        <item>Vĩnh Phúc</item>
-        <item>Yên Bái</item>
-
-
-    </string-array>
+    <string name="app_name">ChuyenDeDiDong</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Tên : Vũ Thu Thảo</string>
+    <string name="nav_header_subtitle">ID : 00001</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="edtSearch">Tìm kiếm</string>
+    <string name="btnLoginSignUp">Đăng nhập/Đăng ký</string>
+    <string name="btnPostNews">Đăng tin</string>
+    <string name="btnMessenger">Messenger</string>
+    <string name="btnSaveNews">Tin đăng đã lưu</string>
+    <string name="btnAccountSettings">Thiết lập tài khoản</string>
+    <string name="btnCreateShop">Tạo cửa hàng</string>
+    <string name="lblPhone">Điện thoại</string>
+    <string name="lblTablet">Máy tính bảng</string>
+    <string name="lblTivi">Tivi</string>
+    <string name="lblCamera">Máy ảnh</string>
+    <string name="lblLoc">Lọc</string>
+    <string name="lblNameProduct">Tên sản phẩm</string>
+    <string name="lblPrice">Giá</string>
 </resources>

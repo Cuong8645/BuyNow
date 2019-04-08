@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#3399cc</color>
+    <color name="colorPrimary">#008577</color>
     <color name="colorPrimaryDark">#00574B</color>
-    <color name="colorAccent">#3399cc</color>
-    <color name="maunen">#e2e9f1</color>
-    <color name="textcolor">#000</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="colorMain">#3399EE</color>
+    <color name="colorAllLayout">#E2E9F1</color>
+    <color name="colorNav">#FFFFFF</color>
+    <color name="colorText">#B3000000</color>
+    <color name="coloredtSearch">#66FFFFFF</color>
 </resources>
