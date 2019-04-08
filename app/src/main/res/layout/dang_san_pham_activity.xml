@@ -84,7 +84,9 @@
             android:padding="10dp"
 
             android:thumb="@drawable/drawable_thump"
-            android:track="@drawable/drawable_track"></Switch>
+            android:track="@drawable/drawable_track">
+
+        </Switch>
 
     </RelativeLayout>
 

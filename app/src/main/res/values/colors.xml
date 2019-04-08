@@ -5,4 +5,5 @@
     <color name="colorAccent">#3399cc</color>
     <color name="maunen">#e2e9f1</color>
     <color name="textcolor">#000</color>
+    <color name="Transparent">#00000000</color>
 </resources>

@@ -1,0 +1,44 @@
+{
+  "project_info": {
+    "project_number": "316058447991",
+    "firebase_url": "https://buynow-8645.firebaseio.com",
+    "project_id": "buynow-8645",
+    "storage_bucket": "buynow-8645.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:316058447991:android:54212773fd2a04ec",
+        "android_client_info": {
+          "package_name": "com.example.buynow"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "316058447991-16b48sd18fcmcatreph9i8ikfklb739t.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.buynow",
+            "certificate_hash": "574290c8708dd155a958d70ef4e60580e577aeb2"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDs3lp-TkbUF_Q0FP4YLuaROTHFcF8qUhc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "316058447991-cisolhggbprs03pf088vbnl9sndpln88.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

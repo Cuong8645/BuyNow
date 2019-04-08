@@ -9,18 +9,20 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Sua_san_pham"
-            android:label="@string/textViewDangSanPham">
+        <activity android:name=".Box_chat">
 
         </activity>
         <activity
-            android:name=".Dang_san_pham"
-            android:label="@string/textViewSuaSanPham">
+            android:name=".Dang_san_pham">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity
+            android:name=".Sua_san_pham">
+
         </activity>
     </application>
 
