@@ -9,5 +9,8 @@ public class TaoCuaHangActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.tao_cua_hang_layout);
+
+        getSupportActionBar().setTitle("Tạo cửa hàng");
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
     }
 }
