@@ -28,7 +28,7 @@ public class ChiTietSanPhamActivity extends AppCompatActivity {
         out = AnimationUtils.loadAnimation(this,R.anim.fade_out);
         viewFlipper.setInAnimation(in);
         viewFlipper.setOutAnimation(out);
-        viewFlipper.setFlipInterval(5000);
+        viewFlipper.setFlipInterval(10000);
         viewFlipper.setAutoStart(true);
 
         //chuyen hinh dai dien thanh hinh tron

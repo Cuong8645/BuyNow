@@ -7,4 +7,6 @@
     <color name="textcolor">#000</color>
     <color name="Transparent">#00000000</color>
     <color name="gia">#FF0202</color>
+    <color name="Yellow">#FFC107</color>
+    <color name="lightGrey">#F0E8E8</color>
 </resources>
