@@ -96,4 +96,8 @@
     <string name="danhmuc">Danh mục:</string>
     <string name="tinhtrang">Tình trạng:</string>
     <string name="mota">Mô tả sản phẩm:</string>
+    <string name="btnLogin">Đăng Nhập</string>
+    <string name="btnRegister">Đăng Ký</string>
+    <string name="login_lable">Tên đăng nhập</string>
+    <string name="password_lable">Mật khẩu</string>
 </resources>
