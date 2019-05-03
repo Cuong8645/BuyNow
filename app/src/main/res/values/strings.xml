@@ -1,5 +1,10 @@
 <resources>
     <string name="app_name">BuyNow</string>
+    <string name="hint_sdt">Số điện thoại</string>
+    <string name="hint_password">Password</string>
+    <string name="buttontieptuc">Tiếp tục</string>
+    <string name="buttondongy">Đồng ý</string>
+    <string name="hint_maxachan">Nhập mã xác nhận</string>
     <string name="textViewDangSanPham">Đăng sản phẩm</string>
     <string name="textViewSuaSanPham">Sửa sản phẩm</string>
     <string name="btnBoLoc">Bỏ lọc</string>
@@ -86,4 +91,10 @@
 
 
     </string-array>
+    <string name="title_activity_store_infor">store_infor</string>
+    <string name="tab_text_1">Thông tin</string>
+    <string name="tab_text_2">Sản Phẩm</string>
+    <string name="tab_text_3">Danh mục</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
 </resources>
