@@ -30,10 +30,10 @@
         <activity android:name=".confirm_numberphone" />
         <activity
             android:name=".Sua_san_pham"
-            android:label="@string/textViewDangSanPham" />
+            android:label="@string/textViewSuaSanPham" />
         <activity
             android:name=".Dang_san_pham"
-            android:label="@string/textViewSuaSanPham">
+            android:label="@string/textViewDangSanPham">
             <!--<intent-filter>-->
                 <!--<action android:name="android.intent.action.MAIN" />-->
 
