@@ -1,21 +1,29 @@
 {
   "project_info": {
-    "project_number": "316058447991",
-    "firebase_url": "https://buynow-8645.firebaseio.com",
-    "project_id": "buynow-8645",
-    "storage_bucket": "buynow-8645.appspot.com"
+    "project_number": "174096538638",
+    "firebase_url": "https://buynow-728cf.firebaseio.com",
+    "project_id": "buynow-728cf",
+    "storage_bucket": "buynow-728cf.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:316058447991:android:54212773fd2a04ec",
+        "mobilesdk_app_id": "1:174096538638:android:54212773fd2a04ec",
         "android_client_info": {
           "package_name": "com.example.buynow"
         }
       },
       "oauth_client": [
         {
-          "client_id": "316058447991-16b48sd18fcmcatreph9i8ikfklb739t.apps.googleusercontent.com",
+          "client_id": "174096538638-j8a3794g33gspi4soj0u93tbpkcpivqq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.buynow",
+            "certificate_hash": "dbbfb28949ff203e6313ced612d05e6affadedd8"
+          }
+        },
+        {
+          "client_id": "174096538638-4ra60b9vdld0e9p9iug20o201q8803cf.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
             "package_name": "com.example.buynow",
@@ -25,14 +33,14 @@
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyDs3lp-TkbUF_Q0FP4YLuaROTHFcF8qUhc"
+          "current_key": "AIzaSyAhM3Qw_bGeVi05XlgnZ0sXWGI7AFN3Pbo"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "316058447991-cisolhggbprs03pf088vbnl9sndpln88.apps.googleusercontent.com",
+              "client_id": "174096538638-kh5sbsnroov67p273d4l59bv6uef1m44.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
