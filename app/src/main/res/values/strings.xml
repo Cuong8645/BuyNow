@@ -91,6 +91,20 @@
 
 
     </string-array>
+
+
+    <string name="gia">Giá:</string>
+    <string name="sanpham">Sản phẩm:</string>
+    <string name="ten">Xperia XZ1</string>
+    <string name="tien">6,300,000</string>
+    <string name="username">Ngô Quốc Cường</string>
+    <string name="danhmuc">Danh mục:</string>
+    <string name="tinhtrang">Tình trạng:</string>
+    <string name="mota">Mô tả sản phẩm:</string>
+    <string name="btnLogin">Đăng Nhập</string>
+    <string name="btnRegister">Đăng Ký</string>
+    <string name="login_lable">Tên đăng nhập</string>
+    <string name="password_lable">Mật khẩu</string>
     <string name="title_activity_store_infor">store_infor</string>
     <string name="tab_text_1">Thông tin</string>
     <string name="tab_text_2">Sản Phẩm</string>

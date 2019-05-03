@@ -6,6 +6,13 @@
     <color name="maunen">#e2e9f1</color>
     <color name="textcolor">#000</color>
     <color name="Transparent">#00000000</color>
+    <color name="gia">#FF0202</color>
+    <color name="Yellow">#FFC107</color>
+    <color name="lightGrey">#F0E8E8</color>
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="gray">#cccccc</color>
+    <color name="background">#e2e9f1</color>
     <color name="maincolor">#3399cc</color>
     <color name="textbuttoncolor">#fff</color>
     <color name="bgbuttonnumber">#FFFFFF</color>
